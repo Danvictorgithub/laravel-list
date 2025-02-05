@@ -7,20 +7,20 @@ export default function Signup() {
   const [showPassword, setShowPassword] = createSignal(false);
   return (
     <main class="container mx-auto text-gray-900">
-      <section class="min-h-svh flex items-center justify-center">
-        <div class="max-w-lg w-full min-h-svh flex items-center justify-start flex-col relative">
-          <div class="w-full p-4">
+      <section class="min-h-svh flex items-center justify-center p-1">
+        <div class="max-w-lg w-full min-h-svh flex items-center justify-start flex-col">
+          <div class="w-full mt-4 p-1">
             <HeaderLogo />
           </div>
           <div class="h-full w-full flex-1 flex items-center justify-center flex-col">
-            <header class="h-full w-full px-4">
+            <header class="h-full w-full">
               <div class="text-6xl font-bold">
                 <h1>Hello!</h1>
                 <p>Welcome</p>
               </div>
               <p class="text-base text-gray-700">Let's create your account</p>
             </header>
-            <form class="w-full mt-12 p-4">
+            <form class="w-full mt-12">
               <div>
                 <label for="email" hidden>
                   image

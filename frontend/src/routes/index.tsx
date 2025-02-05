@@ -10,7 +10,7 @@ export default function Home() {
               alt=""
               class="h-32 w-32 object-contain"
             />
-            <h1 class="font-bold text-7xl -mx-4 mb-1">askmone</h1>
+            <h1 class="font-bold text-6xl lg:text-7xl -mx-4 mb-1">askmone</h1>
           </div>
           <p class="text-center">
             Your ultimate solution for a productivity app
