@@ -60,6 +60,16 @@ export default function Signup() {
                   placeholder={showPassword() ? "password" : "********"}
                   class="border-b w-full p-2"
                 />
+              </div>
+              <div class="mt-8 relative">
+                <label for="password" hidden>
+                  confirm password
+                </label>
+                <input
+                  type={showPassword() ? "text" : "password"}
+                  placeholder="confirm password"
+                  class="border-b w-full p-2"
+                />
                 {showPassword() ? (
                   <button onClick={() => setShowPassword(!showPassword())}>
                     <Icon
@@ -76,7 +86,7 @@ export default function Signup() {
                   </button>
                 )}
               </div>
-              <button class="btn w-full mt-12">sign in</button>
+              <button class="btn w-full mt-12">sign up</button>
             </form>
             <div class="w-full p-2 px-4 text-right">
               <p>Already have an account?</p>
