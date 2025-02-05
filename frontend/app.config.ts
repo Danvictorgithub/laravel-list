@@ -1,3 +1,7 @@
 import { defineConfig } from "@solidjs/start/config";
-
-export default defineConfig({});
+import tailwind from "@tailwindcss/vite";
+export default defineConfig({
+  vite: {
+    plugins: [tailwind()],
+  },
+});
