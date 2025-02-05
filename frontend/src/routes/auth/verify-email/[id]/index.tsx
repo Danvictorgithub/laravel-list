@@ -4,7 +4,6 @@ import { createSignal } from "solid-js";
 import HeaderLogo from "~/components/HeaderLogo";
 
 export default function index() {
-  const [showPassword, setShowPassword] = createSignal(false);
   return (
     <main class="container mx-auto text-gray-900">
       <section class="min-h-svh flex items-center justify-center">
